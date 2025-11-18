@@ -19,7 +19,7 @@ class DataConfig:
 class ModelConfig:
     """Configuration for model training"""
     model_name: str = "meta-llama/Llama-2-7b-chat-hf"
-    token: str = "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"  # Replace with your HuggingFace token
+    token: str = "HF"  # Replace with your HuggingFace token
     
     # Training parameters
     batch_size: int = 2
