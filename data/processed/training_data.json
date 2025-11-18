@@ -1,0 +1,178 @@
+[
+  {
+    "prompt": "List Indicators of Compromise in mitre enterprise-attack",
+    "completion": "## SHA256sum\n- 28553b3a9d2ad4361d33d29ac4bf771d008e0073cec01b5561c6348a608f8dd7\n- 22dab012c3e20e3d9291bce14a2bfc448036d3b966c6e78167f4626f5f9e38d6\n- 0b4c743246478a6a8c9fa3ff8e04f297507c2f0ea5d61a1284fe65387d172f81\n- ef0d2628823e8e0a0de3b08b8eacaf41cf284c086a948bdfd67f4e4373c14e4d\n## MD5sum\n- c9b65b764985dfd7a11d3faf599c56b8\n- 3e8f1a482c8f8d4531507747318e660b\n- 214E0EA1F7F7C27C82D23F183F9D23F1\n- fca29e0dcda8b5c0472e73e10c78c3e7\n- 0598b60112eaafe6d07789f7964290d5\n- ce7a8aca506742ab8e8873e7f9f229c2\n## SHA1sum\n- 58a56a077f0813bb312f9fa4df7453b510c3a73b\n- ea329226636ab8e470086a17f13aa8d330baad22\n- 08cbd274bef78243d7a8ed6443b8364acd1fc48b\n- 7489c69962b52b09ed377d73d142266564845297\n## IP Addresses\n- :57:54\n- :36:38",
+    "metadata": {
+      "source_file": "mitre_enterprise-attack.json",
+      "ioc_counts": {
+        "sha256": 4,
+        "md5": 10,
+        "sha1": 4,
+        "ipv4": 10,
+        "urls": 10,
+        "domains": 0,
+        "emails": 0
+      }
+    }
+  },
+  {
+    "prompt": "List Indicators of Compromise in Equation Group Analysis",
+    "completion": "## SHA256sum\n- 6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\n- d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35\n## MD5sum\n- 6512bd43d9caa6e02c990b0a82652dca\n- 8f14e45fceea167a5a36dedd4bea2543\n## SHA1sum\n- 356a192b7913b04c54574d18c28d46e6395428ab\n- da4b9237bacccdf19c0760cab7aec4a8359010b0\n## IP Addresses\n- 10.1.1.100\n- 172.20.1.50",
+    "metadata": {
+      "source_file": "Equation_Group_Analysis.txt",
+      "ioc_counts": {
+        "sha256": 2,
+        "md5": 2,
+        "sha1": 2,
+        "ipv4": 2,
+        "urls": 4,
+        "domains": 0,
+        "emails": 0
+      }
+    }
+  },
+  {
+    "prompt": "List Indicators of Compromise in CozyBear APT29 Report",
+    "completion": "## SHA256sum\n- cd2ba296828660ecd07a36e8931b851dda0802069ed926b3161745aae9aaddaa\n- ac8e59e8abeacf0885b45183372c0e3e8e249c88d21127b16ebe00f00c1409e6\n## MD5sum\n- 5c91c1d833173f6ae599ef1d4133f235\n- 45c3592373ba9e5f8f23c6b30fb4d2e4\n## SHA1sum\n- 2cb21b71e23cf108067bd02070343883618a5837\n- 1156c3f36800acac714bf78f870d7f066ad25edf\n## IP Addresses\n- 192.168.100.200\n- 198.18.0.1",
+    "metadata": {
+      "source_file": "CozyBear_APT29_Report.txt",
+      "ioc_counts": {
+        "sha256": 2,
+        "md5": 2,
+        "sha1": 2,
+        "ipv4": 2,
+        "urls": 4,
+        "domains": 0,
+        "emails": 0
+      }
+    }
+  },
+  {
+    "prompt": "List Indicators of Compromise in OceanLotus APT32",
+    "completion": "## SHA256sum\n- 4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a\n- 4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce\n## MD5sum\n- eccbc87e4b5ce2fe28308fd9f2a7baf3\n- c81e728d9d4c2f636f067f89cc14862c\n## SHA1sum\n- 5e884898da28047151d0e56f8dc6292773603d0d\n- 8cb2237d0679ca88db6464eac60da96345513964\n## IP Addresses\n- 203.0.113.100\n- 198.51.100.75",
+    "metadata": {
+      "source_file": "OceanLotus_APT32.txt",
+      "ioc_counts": {
+        "sha256": 2,
+        "md5": 2,
+        "sha1": 2,
+        "ipv4": 2,
+        "urls": 4,
+        "domains": 0,
+        "emails": 0
+      }
+    }
+  },
+  {
+    "prompt": "List Indicators of Compromise in DarkHotel Campaign",
+    "completion": "## SHA256sum\n- 6b3a55e0261b0304143f805a24924d0c1c44524821305f31d9277843b8a10f4e\n- 5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9\n## MD5sum\n- e4da3b7fbbce2345d7772b0674a318d5\n- a87ff679a2f3e71d9181a67b7542122c\n## SHA1sum\n- 5b384ce32d8cdef02bc3a139d4cac0a22bb029e8\n- 70c881d4a26984ddce795f6f71817c9cf4480e79\n## IP Addresses\n- 10.50.0.200\n- 192.168.100.10",
+    "metadata": {
+      "source_file": "DarkHotel_Campaign.txt",
+      "ioc_counts": {
+        "sha256": 2,
+        "md5": 2,
+        "sha1": 2,
+        "ipv4": 2,
+        "urls": 4,
+        "domains": 0,
+        "emails": 0
+      }
+    }
+  },
+  {
+    "prompt": "List Indicators of Compromise in Turla APT Report",
+    "completion": "## SHA256sum\n- 6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\n- d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35\n## MD5sum\n- 1679091c5a880faf6fb5e6087eb1b2dc\n- 8f14e45fceea167a5a36dedd4bea2543\n## SHA1sum\n- 902ba3cda1883801594b6e1b452790cc53948fda\n- 5e884898da28047151d0e56f8dc6292773603d0d\n## IP Addresses\n- 172.30.1.100\n- 10.100.50.25",
+    "metadata": {
+      "source_file": "Turla_APT_Report.txt",
+      "ioc_counts": {
+        "sha256": 2,
+        "md5": 2,
+        "sha1": 2,
+        "ipv4": 2,
+        "urls": 4,
+        "domains": 0,
+        "emails": 0
+      }
+    }
+  },
+  {
+    "prompt": "List Indicators of Compromise in APT35 Threat Report",
+    "completion": "## SHA256sum\n- 35a485972282b7c0e8e3a7a9cbf86ad93856378f696cc8e230be5099cdb89208\n## MD5sum\n- a1d378111335d450769049446df79983\n## SHA1sum\n- bb700e1ef97e1eed56bb275fde2c5faed008c225\n- 221f66582841ec2ef79a46d4f90b0e32642887ba\n## IP Addresses\n- 10.0.0.50\n- 192.168.1.100",
+    "metadata": {
+      "source_file": "APT35_Threat_Report.txt",
+      "ioc_counts": {
+        "sha256": 1,
+        "md5": 1,
+        "sha1": 2,
+        "ipv4": 2,
+        "urls": 4,
+        "domains": 0,
+        "emails": 0
+      }
+    }
+  },
+  {
+    "prompt": "List Indicators of Compromise in FIN7 Malware Analysis",
+    "completion": "## SHA256sum\n- cd2ba296828660ecd07a36e8931b851dda0802069ed926b3161745aae9aaddaa\n- ac8e59e8abeacf0885b45183372c0e3e8e249c88d21127b16ebe00f00c1409e6\n## MD5sum\n- 5d41402abc4b2a76b9719d911017c592\n- 7d793037a0760186574b0280ce8a3b4d\n## SHA1sum\n- aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d\n- 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8\n## IP Addresses\n- 198.51.100.23\n- 203.0.113.45",
+    "metadata": {
+      "source_file": "FIN7_Malware_Analysis.txt",
+      "ioc_counts": {
+        "sha256": 2,
+        "md5": 2,
+        "sha1": 2,
+        "ipv4": 2,
+        "urls": 4,
+        "domains": 0,
+        "emails": 0
+      }
+    }
+  },
+  {
+    "prompt": "List Indicators of Compromise in mitre ics-attack",
+    "completion": "## MD5sum\n- 554b2aa969c8220016ab2ef94bd7635b\n## IP Addresses\n- :36:38\n- :02:25",
+    "metadata": {
+      "source_file": "mitre_ics-attack.json",
+      "ioc_counts": {
+        "sha256": 0,
+        "md5": 1,
+        "sha1": 0,
+        "ipv4": 10,
+        "urls": 10,
+        "domains": 0,
+        "emails": 0
+      }
+    }
+  },
+  {
+    "prompt": "List Indicators of Compromise in Lazarus Group Campaign",
+    "completion": "## MD5sum\n- 3a62b26311583a23767c35d56b95175d\n## SHA1sum\n- 36fa5a020aca2cfab25661cf2ae7637de1aaf8d4\n- aa791a0a98a30e10119b8cc1399ab1306275fc1f\n## IP Addresses\n- 172.16.254.1\n- 192.0.2.146",
+    "metadata": {
+      "source_file": "Lazarus_Group_Campaign.txt",
+      "ioc_counts": {
+        "sha256": 0,
+        "md5": 1,
+        "sha1": 2,
+        "ipv4": 2,
+        "urls": 4,
+        "domains": 0,
+        "emails": 0
+      }
+    }
+  },
+  {
+    "prompt": "List Indicators of Compromise in mitre mobile-attack",
+    "completion": "## MD5sum\n- 5013acf2cd5b28e55036c82c91bd56d8\n## IP Addresses\n- :09:13\n- :03:11",
+    "metadata": {
+      "source_file": "mitre_mobile-attack.json",
+      "ioc_counts": {
+        "sha256": 0,
+        "md5": 1,
+        "sha1": 0,
+        "ipv4": 10,
+        "urls": 10,
+        "domains": 0,
+        "emails": 0
+      }
+    }
+  }
+]
