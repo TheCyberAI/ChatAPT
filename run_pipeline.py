@@ -53,9 +53,16 @@ def run_data_processing():
 def load_default_model():
     """Load and test the default model before training"""
     try:
-        model_testing_path = Path(__file__).parent / "scripts" / "load_and_test_model.py"
-        model_testing = import_module_from_file("load_and_test_model", model_testing_path)
-        model_testing.main()
+        # Try the new filename first
+        model_loader_path = Path(__file__).parent / "scripts" / "load_default_model.py"
+        if model_loader_path.exists():
+            model_loader = import_module_from_file("load_default_model", model_loader_path)
+            model_loader.main()
+        else:
+            # Fallback to old filename for backward compatibility
+            model_loader_path = Path(__file__).parent / "scripts" / "load_and_test_model.py"
+            model_loader = import_module_from_file("load_and_test_model", model_loader_path)
+            model_loader.main()
         return True
     except Exception as e:
         logger.error(f"Model loading failed: {e}")
